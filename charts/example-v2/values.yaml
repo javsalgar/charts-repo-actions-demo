@@ -24,6 +24,7 @@ podSecurityContext: {}
   # fsGroup: 2000
 
 securityContext:
+  runAsUser: 1001
   runAsNonRoot: true
   privileged: false
   allowPrivilegeEscalation: false
