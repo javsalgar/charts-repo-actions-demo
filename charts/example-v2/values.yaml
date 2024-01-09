@@ -33,6 +33,8 @@ securityContext:
   seccompProfile:
     type: "RuntimeDefault"
 
+containerPorts:
+  http: 8080
 
 service:
   type: ClusterIP
